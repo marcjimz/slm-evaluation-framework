@@ -101,6 +101,7 @@ class AzureAIQualityEvaluator:
             temp_file = tempfile.NamedTemporaryFile(delete=False, suffix='.jsonl', mode='w')
             self._convert_to_jsonl(data, temp_file)
 
+            logger.info("Evaluating the quality of chat responses...")
             result = evaluate(
                 data=temp_file.name,
                 evaluators={
@@ -126,7 +127,7 @@ class AzureAIQualityEvaluator:
         except ConnectionResetError as e:
             logger.error(f"ConnectionResetError: {e}. The connection was forcibly closed by the remote host.")
         except Exception as e:
-            logger.error(f"Error during content safety evaluation: {e}")
+            logger.error(f"Error during chat quality evaluation: {e}")
         finally:
             try:
                 if temp_file:
@@ -155,6 +156,7 @@ class AzureAIQualityEvaluator:
             temp_file = tempfile.NamedTemporaryFile(delete=False, suffix='.jsonl', mode='w')
             self._convert_to_jsonl(data, temp_file)
 
+            logger.info("Evaluating the content safety of chat responses...")
             result = evaluate(
                 data=temp_file.name,
                 evaluators={

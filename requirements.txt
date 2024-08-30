@@ -1,2 +1,8 @@
-promptflow-azure
-promptflow-evals
+promptflow-azure==1.12.0
+promptflow-evals==0.3.0
+plotly==5.23.0
+ipykernel==6.29.5
+python-dotenv==1.0.1
+nbformat==5.10.4
+transformers[torch]==4.40.2
+ipywidgets==8.1.5

@@ -127,7 +127,7 @@ Follow these steps to create a Conda environment and set up your VSCode for runn
    - Download and install the `Python` and `Jupyter` extensions for VSCode. These extensions provide support for running and editing Jupyter Notebooks within VSCode.
 
 2. **Open the Notebook**:
-   - Open the Jupyter Notebook file (`01-promptflow-evaluation-howto.ipynb`) in VSCode.
+   - Open the Jupyter Notebook file (`promptflow-evaluation-howto.ipynb`) in VSCode.
 
 3. **Attach Kernel to VSCode**:
    - After creating the Conda environment, it should be available in the kernel selection dropdown. This dropdown is located in the top-right corner of the VSCode interface.
