@@ -4,7 +4,7 @@ Hey there! You've stumbled upon our project where we're diving deep into the nut
 
 ## 🤖 Challenges in LLM/SLM Evaluation
 
-Evaluating LLMs and SLMs presents unique challenges, including the need for continuous evaluation, adherence to responsible AI practices, and the tailoring of evaluation metrics to specific applications. Prompt Flow addresses these challenges by offering:
+Evaluating LLMs and SLMs presents unique challenges, including the need for continuous evaluation, adherence to responsible AI practices, and the tailoring of evaluation metrics to specific applications and business processes. Prompt Flow addresses these challenges by offering:
 
 - **Continuous Integration, Evaluation, and Deployment (CI/CE/CD)**: Implementing LLMOps for effective lifecycle management.
 - **Responsible AI Practices**: Ensuring ethical use and mitigating potential risks.

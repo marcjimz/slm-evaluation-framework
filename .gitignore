@@ -163,3 +163,8 @@ notebooks/dev/test/*
 
 outputs
 multirun
+
+# Ignore use-case files
+*CustomHumanEvaluator-Customer.jsonl*
+*trainingdata.csv*
+.DS_Store
